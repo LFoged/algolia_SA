@@ -29,13 +29,13 @@ Hi Carrie,
 
 Thanks for providing the error message and description of your website.
 
-Based on the information that you shared, the issue is likely related to the non-search metadata being added to the records.
-We advise that "Your records should only include information that helps with searching, showing results, sorting, and relevance" (https://www.algolia.com/doc/guides/sending-and-managing-data/prepare-your-data/#algolia-records).
+The issue is likely related to the non-search metadata added to the records.
+As per our documentation; "Your records should only include information that helps with searching, showing results, sorting, and relevance" (https://www.algolia.com/doc/guides/sending-and-managing-data/prepare-your-data/#algolia-records).
 
-Thus, I suggest removing the metadata that isn't intended for search, from the records.
+I suggest removing the metadata that isn't intended for search, from the records.
 This can be done by creating a new collection of records, excluding the non-search metadata, and uploading this new collection to Algolia.
 
-If you/your team require assistance in doing this, or if the errors continue, please let me know and I'll be happy to jump on a call and help.
+If you/your team require assistance in doing this, I'm happy to jump on a call and help.
 
 All the best,
 Louis
@@ -45,9 +45,16 @@ Louis
 
 *Response 3*  
 
+Hi Marc,
 
+Thanks for providing a picture of the error message.
 
+From the error, it appears that the issue might be some code related to a search service other than Algolia.
+
+Can you please confirm that you are a customer of Algolia/are using Algolia as your search provider?
+
+All the best,
+Louis
 
 
 --
-  
