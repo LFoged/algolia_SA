@@ -1,3 +1,1 @@
-# Solution for Algolia SA Assignment 
-  
-## Published on codesandbox
+# Solution for Algolia SA Assignment
