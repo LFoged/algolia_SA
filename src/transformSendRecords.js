@@ -1,6 +1,12 @@
 import rawProductData from '../data/products.json'
 import algoliasearch from 'algoliasearch';
 
+
+/*
+This script pulls raw product data from ../data/products.json, applies the specified discount to the target category and uploads the records to Algolia.
+The entry (main) controller function of this script is applyDiscountSendRecords - located at the bottom of this file
+*/
+
 const applyDiscount = (product = {}) => {
     const discountPercent = 20;
     const discountAmount =  product.price * (discountPercent / 100);
